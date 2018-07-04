@@ -26,13 +26,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p class="description">
                     Rasanya, Aku memiliki ketertarikan dengan caramu memandang dunia ini. Kita pernah berpapasan jika kau ingat, di sebuah tempat di tahun 2015. <br>
                     Aku suka, caramu berpakaian siang itu, dan caramu memanggil pelayan di salah satu tempat makan pinggiran di kota ini. <br>
-                    Kau teilhat lahap, saat menikmati nasi dan lauk pauk yang kamu makan secara bersamaan dengan Jari-jarimu yang membentuk segitiga. <br>
+                    Kau terlihat lahap, saat menikmati nasi dan lauk pauk yang kamu makan secara bersamaan dengan Jari-jarimu yang membentuk segitiga. <br>
                     Bersamaan dengan cerita tadi, mari memaknai rasa lebih jauh, bersamaku.
                 </p>
                 <p class="description">JANGAN SAMPAI TIDAK DATANG!!!1!1!!</p>
                 <p class="description" style="font-size: 19px;">
                     Kamis, 5 Juli 2018<br>
-                    Mulai pukul 21.00<br>
+                    Mulai pukul 19.30<br>
                     Mr. Guan Coffee & Books<br>
                     Jl. Tampomas No. 22, Bandung
                 </p>
@@ -40,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url('assets/img/ayam.gif') ?>" alt="" class="img-fluid mx-auto" style="display: block; margin-top: 60px; margin-bottom: 60px;">
                 <a href="" id="errorClick" class="main-link">CLICK HERE</a>
 
-                <img src="<?= base_url('assets/img/sereal_logo.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 20px; margin-bottom: 20px; width: 80px;">
+                <img src="<?= base_url('assets/img/sereal_logo.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 20px; margin-bottom: 20px; width: 60px;">
             </div>
             <div class="col-lg-3 d-none d-lg-block d-xl-block align-self-end">
                 <img src="<?= base_url('assets/img/gif_cahaya_2.gif') ?>" alt="" class="img-fluid mx-auto" style="margin-top: 60px; display: block;">
