@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+input {
+    border-color: red;
+}
+
+.helper {
+    color: #ff00ff;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.bg-abs,
+.bg-abs-right {
+    position: absolute;
+}
+
+.bg-abs-right {
+    right: 0;
+}
+
+.helper a {
+    color: #ff00ff;
+}
+
+.helper-right {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: right;
+}
+
+.helper-right a {
+    color: #00FF00;
+}
+
+#welcome {
+    height: 100vh;
+}
+
+#main {
+    height: 100vh;
+}
+
+.form-container {
+    margin-top: 30px;
+}
+
+#accessCode {
+    margin-bottom: 10px;
+    background-color: black;
+    text-align: center;
+    color: #ff00ff;
+    font-size: 1.4em;
+    border-radius: 0;
+}
+
+.main-content-container {
+    text-align: right;
+}
+
+.main-link {
+    color: blue;
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.description {
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.display-code {
+    display: block;
+    position: absolute;
+    color: red;
+
+    font-size: 8vw;
+
+    top: 40%;
+    left: 40.5%;
+}
+
+@media (max-width: 991px) {
+    .display-code {
+        top: 44%;
+        left: 42%;
+    }
+}
+
+@media (max-width: 768px) {
+    .display-code {
+        top: 48%;
+        left: 42%;
+    }
+}
+
+#canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: none;
+}
+
+#audioControl {
+    position: absolute;
+    right: 4%;
+    width: 30px;
+    z-index: 99;
+}
