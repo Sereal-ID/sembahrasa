@@ -8,15 +8,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 align-items-center">
-                    <img src="<?= base_url('assets/img/sereal_logo.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 20px;">
-                    <div class="main-content-container" style="margin-top: 10px;">
+                    <div class="main-content-container" style="margin-top: 10px; text-align: center;">
+                        <a href="<?= site_url() ?>">
+                            <img src="<?= base_url('assets/img/logo_komplit_resize.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 15px;">
+                        </a>
                         <div class="embed-responsive embed-responsive-16by9">
                             <div id="player" class="mx-auto embed-responsive-item" style="display: block;"></div>
                         </div>
-                        <a href="<?= site_url('reception') ?>" class="main-link">SKIP</a>
+                        <p class="description">simak baik baik video ini sampai selesai!!!!!!!!1!!!!!!!!!!1</p>
+                        <a href="<?= site_url('video') ?>" class="main-link">SKIP</a>
                     </div>
                 </div>
             </div>
+            <img src="<?= base_url('assets/img/sereal_logo.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 20px;">
         </div>
     </section>
 
