@@ -122,6 +122,12 @@ input {
     }
 }
 
+@media (min-width: 1366px) {
+    .display-code {
+        font-size: 80px;
+    }
+}
+
 #canvas {
     position: fixed;
     top: 0;

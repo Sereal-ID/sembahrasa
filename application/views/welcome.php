@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
         
-    <section id="welcome">
+    <section id="welcome" class>
         <audio src="<?= base_url('assets/audio/sembah.mp3') ?>" id="audioPlayer" autoplay loop></audio>
         
         <img src="<?= base_url('assets/img/sound_on.png') ?>" alt="" id="audioControl" style="margin-top: 10px;">
@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p class="description">
                                     Kalau kamu rasa, kamu telah merasakan segalanya, mungkin ini saatnya kamu memaknai rasa yang kamu sudah rasakan
                                 </p>
-                                <img src="<?= base_url('assets/img/sereal_logo.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 20px; width: 80px;">
+                                <img src="<?= base_url('assets/img/sereal_logo.png') ?>" alt="" class="mx-auto" style="display: block; margin-top: 60px; width: 80px;">
                             </div>
                             <div class="col-lg-3 align-self-end d-none d-lg-block d-xl-block">
                                 <div class="helper-right">
