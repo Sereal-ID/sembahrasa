@@ -34,7 +34,7 @@ class Welcome extends CI_Controller {
 
 		if ($res != NULL) {
 			$this->session->set_userdata('code', $res);
-			redirect('welcome/video');
+			redirect('video');
 		} else {
 			redirect('/');
 		}

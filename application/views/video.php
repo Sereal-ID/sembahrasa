@@ -3,8 +3,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
     <section id="main">
-        <img src="<?= base_url('assets/img/gif-sembah-rasa2.gif') ?>" alt="" class="img-fluid bg-abs" style="height: 100vh;">
-        <img src="<?= base_url('assets/img/gif-sembah-rasa2_flipped.gif') ?>" class="img-fluid bg-abs-right" alt="" style="height: 100vh;">
+        <img src="<?= base_url('assets/img/gif-sembah-rasa2.gif') ?>" alt="" class="img-fluid bg-abs d-none d-lg-block d-xl-block" style="height: 100vh;">
+        <img src="<?= base_url('assets/img/gif-sembah-rasa2_flipped.gif') ?>" class="img-fluid bg-abs-right d-none d-lg-block d-xl-block" alt="" style="height: 100vh;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 align-items-center">
