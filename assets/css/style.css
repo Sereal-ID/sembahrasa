@@ -12,12 +12,6 @@ input {
     border-color: red;
 }
 
-.helper {
-    color: #ff00ff;
-    font-size: 1.4em;
-    font-weight: bold;
-}
-
 .bg-abs,
 .bg-abs-right {
     position: absolute;
@@ -27,6 +21,12 @@ input {
     right: 0;
 }
 
+.helper {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.helper,
 .helper a {
     color: #ff00ff;
 }
@@ -37,6 +37,7 @@ input {
     text-align: right;
 }
 
+.helper-right,
 .helper-right a {
     color: #00FF00;
 }
@@ -82,35 +83,38 @@ input {
     margin-top: 30px;
 }
 
+.absolute-container {
+    position: absolute;
+    left: 50.5%;
+    top: 43%;
+
+    text-align: center;
+}
+
 .display-code {
     display: block;
-    position: absolute;
+    position: relative;
     color: red;
 
     font-size: 6vw;
-
-    top: 43%;
-    left: 41%;
+    left: -50%;
 }
 
 @media (max-width: 991px) {
-    .display-code {
+    .absolute-container {
         top: 44%;
-        left: 42%;
     }
 }
 
 @media (max-width: 768px) {
-    .display-code {
+    .absolute-container {
         top: 48%;
-        left: 42%;
     }
 }
 
 @media (max-width: 768px) {
-    .display-code {
+    .absolute-container {
         top: 51%;
-        left: 42%;
     }
 }
 

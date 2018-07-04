@@ -8,7 +8,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-10 offset-lg-1 col-md-12" style="text-align: center;">
-                <h1 class="display-code"><?= $code['code'] ?></h1>
+                <div class="absolute-container">
+                    <h1 class="display-code"><?= $code['code'] ?></h1>
+                </div>
                 <img src="<?= base_url('assets/img/gif_invitation.gif') ?>" alt="" class="mx-auto img-fluid" style="display: block; margin-top: 60px;">
             </div>
         </div>
