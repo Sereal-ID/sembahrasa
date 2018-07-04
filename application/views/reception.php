@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Bersamaan dengan cerita tadi, mari memaknai rasa lebih jauh, bersamaku.
                 </p>
                 <p class="description">JANGAN SAMPAI TIDAK DATANG!!!1!1!!</p>
-                <p class="description" style="font-size: 19px;">
+                <p class="description magenta" style="font-size: 19px;">
                     Kamis, 5 Juli 2018<br>
                     Mulai pukul 19.30<br>
                     Mr. Guan Coffee & Books<br>
